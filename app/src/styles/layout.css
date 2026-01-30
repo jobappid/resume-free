@@ -1,0 +1,23 @@
+/* Desktop default is handled by inline styles; this file adds mobile overrides */
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Optional: put Preview first on mobile (remove if you want form first) */
+  .mobile-preview-first {
+    order: 1;
+  }
+  .mobile-form-second {
+    order: 2;
+  }
+}
+
+@media (max-width: 520px) {
+  .page {
+    /* Preview container: keep it readable and not too zoomed out */
+    transform: scale(0.92);
+    transform-origin: top center;
+  }
+}
