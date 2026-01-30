@@ -5,11 +5,11 @@
     grid-template-columns: 1fr !important;
   }
 
-  /* Optional: put Preview first on mobile (remove if you want form first) */
-  .mobile-preview-first {
+  /* Form first, preview below */
+  .mobile-form-second {
     order: 1;
   }
-  .mobile-form-second {
+  .mobile-preview-first {
     order: 2;
   }
 }
