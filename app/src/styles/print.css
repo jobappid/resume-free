@@ -1,0 +1,14 @@
+@media print {
+  body { background: white !important; }
+  .no-print { display: none !important; }
+  .page {
+    width: 8.5in;
+    min-height: 11in;
+    padding: 0.6in;
+    margin: 0;
+    color: #000;
+    box-sizing: border-box;
+  }
+  .page * { color: #000 !important; }
+}
+@page { size: Letter; margin: 0; }
