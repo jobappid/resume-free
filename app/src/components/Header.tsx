@@ -7,11 +7,11 @@ export default function Header() {
   src="/JobAppID-Logo.png"
   alt="JobAppID"
   style={{
-    height: 150,          // ← bigger logo
-    width: "auto",
-    display: "block",
-    maxWidth: "100%",
-  }}
+  height: "clamp(80px, 8vw, 150px)",
+  width: "auto",
+  display: "block",
+  maxWidth: "100%",
+}}
 />
           <div>
             <div style={{ fontSize: 18, fontWeight: 800, lineHeight: 1.1 }}>
